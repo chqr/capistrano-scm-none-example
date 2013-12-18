@@ -1,4 +1,4 @@
 capistrano-scm-none-example
 ===========================
 
-Hacked-together scm none plugin, ymmv
+Demo of a really simple :none scm plugin for Cap 3.
