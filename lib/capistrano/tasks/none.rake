@@ -4,7 +4,7 @@ namespace :none do
   desc 'Check if local "repo" exists & is a directory'
   task :check do
     unless File.directory?(repo_url)
-      fail "none.rake: #{repo_url} must be a directory!"
+      raise "none.rake: #{repo_url} must be a directory!"
     end
   end
 
